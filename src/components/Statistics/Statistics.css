@@ -1,0 +1,37 @@
+.statistics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #fff;
+
+  margin-bottom: 15px;
+}
+
+.title {
+  padding: 20px;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.stat-list .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  flex-basis: calc(100% / 5);
+
+  padding: 10px;
+}
+
+.stat-list .item .label {
+  color: black;
+}

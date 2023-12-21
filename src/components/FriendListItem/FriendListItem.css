@@ -1,0 +1,23 @@
+.item-friend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.status-online {
+  background-color: green;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.status-offline {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
